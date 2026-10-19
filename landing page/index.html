@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Warung Kopi Purnama — Kopitiam Legendaris Bandung Sejak 1930</title>
+<meta name="description" content="Warung Kopi Purnama, Jl. Alkateri No. 22, Braga, Bandung. Kopi tubruk, roti srikaya, dan nostalgia sejak 1930.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,800;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="lm"></div><p>Warung Kopi Purnama</p><small>Sejak 1930</small></div>
+<div id="prog"></div><div id="glow"></div><button id="toTop" aria-label="Ke atas">↑</button>
+<header id="nav">
+  <a href="#beranda" class="logo"><span class="mini-moon"></span>Purnama</a>
+  <button id="burger" aria-label="Menu">☰</button>
+  <nav id="menuNav">
+    <a href="#beranda">Beranda</a><a href="#cerita">Cerita</a><a href="#menu">Menu</a>
+    <a href="#ulasan">Ulasan</a><a href="#kunjungi">Kunjungi</a>
+  </nav>
+  <button id="cartBtn" class="cart-btn">🛒 Pesanan <b id="cartCount">0</b></button>
+</header>
+
+<section id="beranda" class="hero">
+  <canvas id="sky"></canvas>
+  <img class="hero-img" src="img/hero.jpg" alt="Warung Kopi Purnama, Bandung" onerror="this.remove()">
+  <div class="moon"></div>
+  <div class="hero-inner">
+    <p class="eyebrow reveal">Kopitiam Sejak 1930 · Braga, Bandung</p>
+    <h1 class="reveal">Warung Kopi <em>Purnama</em></h1>
+    <p class="lead reveal">Secangkir kopi hangat, roti srikaya buatan keluarga, dan empat generasi cerita di Jl. Alkateri No. 22.</p>
+    <div class="reveal"><a class="btn" href="#menu">Pesan Sekarang</a><a class="btn ghost" href="#ulasan">Baca Ulasan</a></div>
+    <p class="reveal"><span id="status" class="status"></span></p>
+    <div class="cup"><span></span><span></span><span></span></div>
+  </div>
+  <svg class="sky-line" viewBox="0 0 1200 140" preserveAspectRatio="none"><path fill="#fbf5e8" d="M0 140V90h60V60h50V90h40V40l30-20 30 20v50h70V70h60V50h40v40h50V30l40-20 40 20v60h80V80h60V55h50v35h70V45l35-18 35 18v45h90V70h60v20h60V60h50v30h60V100h70v40z"/></svg>
+  <a href="#cerita" class="scroll">scroll ↓</a>
+</section>
+<div class="marq"><div class="mt"><span>☕ KOPI TUBRUK</span><span>🍞 ROTI SRIKAYA</span><span>🌕 SEJAK 1930</span><span>🥣 LONTONG CAP GO MEH</span><span>☕ ES KOPI FLOAT</span><span>🍲 RAWON</span><span>☕ KOPI TUBRUK</span><span>🍞 ROTI SRIKAYA</span><span>🌕 SEJAK 1930</span><span>🥣 LONTONG CAP GO MEH</span><span>☕ ES KOPI FLOAT</span><span>🍲 RAWON</span></div></div>
+
+<section id="cerita" class="sec">
+  <div class="wrap two">
+    <div class="photo reveal"><svg class="shop" viewBox="0 0 400 440" aria-hidden="true"><rect width="400" height="440" fill="#1f3b33"/><circle cx="320" cy="60" r="34" fill="#f1d88c"/><rect x="40" y="110" width="320" height="300" fill="#f6ecd9"/><rect x="30" y="90" width="340" height="34" fill="#5a3320"/><rect x="70" y="128" width="260" height="46" rx="4" fill="#a63a2b"/><text x="200" y="158" text-anchor="middle" font-family="Playfair Display,serif" font-weight="800" font-size="22" fill="#f6ecd9">WARUNG KOPI PURNAMA</text><path d="M40 180h320v26l-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12-16 12-16-12z" fill="#d9a441"/><rect x="62" y="230" width="90" height="100" rx="6" fill="#ffd98a" class="win"/><rect x="248" y="230" width="90" height="100" rx="6" fill="#ffd98a" class="win"/><path d="M107 230v100M62 280h90M293 230v100M248 280h90" stroke="#5a3320" stroke-width="4"/><rect x="170" y="240" width="60" height="170" rx="30 30 0 0" fill="#2a1a12"/><circle cx="215" cy="330" r="4" fill="#d9a441"/><rect x="20" y="410" width="360" height="20" fill="#5a3320"/><circle cx="48" cy="205" r="7" fill="#fff3b0" class="win"/></svg><img src="img/cerita.jpg" alt="Interior Warung Kopi Purnama" onerror="this.remove()"></div>
+    <div class="reveal">
+      <h2>Bulan Purnama yang <em>Tak Pernah Padam</em></h2>
+      <p>Warung ini dirintis pada 1930 dan kini dijalankan generasi keempat keluarga pendirinya. Namanya berarti "kedai bulan purnama", dipakai sejak pertengahan 1960-an.</p>
+      <p>Meja kayu, dinding penuh foto lama, dan suasana nostalgia Belanda-Tionghoa menemani kopi yang diseduh dengan biji Kopi Aroma dan selai srikaya resep keluarga.</p>
+      <div class="stats"><div><b data-n="96">0</b><small>tahun berdiri</small></div><div><b data-n="4">0</b><small>generasi</small></div><div><b data-n="15">0</b><small>jam buka / hari</small></div></div>
+    </div>
+  </div>
+<div class="wrap tl reveal"><h3>Perjalanan <em>Purnama</em></h3><div class="tl-in">
+<div><b>1930</b><p>Kedai dirintis oleh sang pendiri, cikal bakal Warung Kopi Purnama.</p></div>
+<div><b>Pertengahan 1960-an</b><p>Nama berganti menjadi Warung Kopi Purnama, "kedai bulan purnama".</p></div>
+<div><b>Roti Srikaya</b><p>Selai srikaya resep keluarga jadi andalan, dipasangkan dengan kopi hangat.</p></div>
+<div><b>Kini</b><p>Dijalankan generasi keempat dan tetap ramai di Braga.</p></div></div></div>
+</section>
+
+<section id="menu" class="sec dark">
+  <div class="wrap">
+    <h2 class="center reveal">Menu <em>Andalan</em></h2>
+    <div class="tabs reveal" id="tabs"></div>
+    <div class="grid" id="menuGrid"></div>
+    <p class="note">*Harga pada halaman ini contoh untuk demo, bukan harga resmi kedai.</p>
+  </div>
+</section>
+
+<section id="ulasan" class="sec">
+  <div class="wrap">
+    <h2 class="center reveal">Kata <em>Pelanggan</em></h2>
+    <div class="rev-top reveal">
+      <div class="avg"><b id="avgNum">0.0</b><div id="avgStars" class="stars"></div><small id="avgCount"></small></div>
+      <div id="bars" class="bars"></div>
+    </div>
+    <div class="chips reveal" id="chips"><button class="on" data-f="0">Semua</button><button data-f="5">5★</button><button data-f="4">4★</button><button data-f="3">≤3★</button></div>
+    <div class="two rev-body">
+      <div id="reviewList" class="rlist"></div>
+      <form id="reviewForm" class="card reveal">
+        <h3>Sudah berkunjung? Beri penilaian</h3>
+        <input id="rName" placeholder="Nama kamu" maxlength="30" required>
+        <div class="starpick" id="starPick" role="radiogroup" aria-label="Rating"></div>
+        <textarea id="rText" rows="4" placeholder="Ceritakan pengalamanmu…" maxlength="300" required></textarea>
+        <button class="btn" type="submit">Kirim Ulasan</button>
+        <small>Ulasan contoh bertanda “contoh”; ulasanmu tersimpan di browser ini.</small>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="kunjungi" class="sec dark">
+  <div class="wrap two">
+    <div class="reveal">
+      <h2>Mampir <em>Yuk</em></h2>
+      <p>📍 Jl. Alkateri No. 22, Braga, Sumur Bandung, Kota Bandung</p>
+      <p>🕐 Setiap hari, sekitar 06.30–22.00 WIB (jam dapat berubah, cek langsung)</p>
+      <p>🥖 Dekat Alun-alun Bandung dan kawasan Braga</p>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Warung+Kopi+Purnama+Jl.+Alkateri+22+Bandung">Buka di Google Maps</a>
+    </div>
+    <div class="reveal"><iframe title="Peta" loading="lazy" src="https://www.google.com/maps?q=Warung+Kopi+Purnama+Jl.+Alkateri+22+Bandung&output=embed"></iframe></div>
+  </div>
+</section>
+<footer>© Warung Kopi Purnama · Halaman konsep tidak resmi, dibuat sebagai demo. Data umum bersumber dari media kuliner.</footer>
+
+<aside id="drawer" class="drawer">
+  <div class="dh"><h3>Pesananmu</h3><button id="closeCart">✕</button></div>
+  <div id="cartItems"></div>
+  <div class="dfoot">
+    <input id="cName" placeholder="Nama pemesan" maxlength="30">
+    <input id="cTable" placeholder="No. meja (mis. 5)" maxlength="4">
+    <select id="cType"><option>Makan di sini</option><option>Bawa pulang</option></select>
+    <input id="cNote" placeholder="Catatan (mis. kurang manis)" maxlength="60">
+    <select id="cPay"><option>Tunai</option><option>QRIS</option><option>Debit</option></select>
+    <div class="row"><span>Subtotal</span><b id="subT">Rp0</b></div>
+    <button id="checkout" class="btn full">Pesan & Cetak Struk</button>
+  </div>
+</aside>
+<div id="overlay"></div>
+<div id="modal" class="modal"><div class="receipt" id="receipt"></div></div>
+<div id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
